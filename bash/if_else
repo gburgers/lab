@@ -1,0 +1,8 @@
+#!/bin/bash
+if [[ some condition]]; then
+	echo "This condition is true"
+elif [[ some other condition ]]; then
+	echo "This other condition is true"
+else
+	echo "None of the conditionsa are true"
+fi
